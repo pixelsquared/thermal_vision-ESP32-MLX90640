@@ -1,5 +1,7 @@
 # Thermal Vision For MLX90640 On ESP32
 
+Build to work with https://github.com/TheRealWaldo/thermal
+
 Based on code from https://github.com/TheRealWaldo/esp8266-amg8833
 
 ## Parts
