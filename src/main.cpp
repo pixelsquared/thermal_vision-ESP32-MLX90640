@@ -260,9 +260,6 @@ void setup()
   Serial.print("Got IP: ");
   Serial.println(WiFi.localIP());
 
-  ArduinoOTA.setHostname("joshua-thermal-camera");
-  ArduinoOTA.setPasswordHash("f614c4c7666a89f3fa26757abc1e066d");
-
   ArduinoOTA
       .onStart([]()
                {
